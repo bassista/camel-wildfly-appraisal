@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<appraisals xmlns="http://camel.apache.org/examples">
+  <appraisal>
+    <appraiser>Art Vandalay</appraiser>
+    <address>
+      <street>West 81st St</street><!-- No street number -->
+      <unit>5B</unit>
+      <city>New York</city>
+      <state>NY</state>
+      <zip>10024</zip>
+    </address>
+    <amount>893023</amount>
+  </appraisal>
+  <appraisal>
+    <appraiser>Art Vandalay</appraiser>
+    <address>
+      <street>129 West 81st St</street>
+      <unit>5A</unit>
+      <city>New York</city>
+      <state>NY</state>
+      <zip>10024</zip>
+    </address>
+    <amount>-1200000</amount><!-- Amount less than 0 -->
+  </appraisal>
+  <appraisal>
+    <appraiser>Art Vandalay</appraiser>
+    <address>
+      <street>1344 Queens Blvd</street>
+      <city>Queens</city>
+      <state>NY</state>
+      <zip>111011</zip><!-- Invalid zip -->
+    </address>
+    <amount>505030</amount>
+  </appraisal>
+  <!-- And one good one just to see if it goes in -->
+  <appraisal>
+    <appraiser>Art Vandalay</appraiser>
+    <address>
+      <street>1344 Queens Blvd</street>
+      <city>Queens</city>
+      <state>NY</state>
+      <zip>11101</zip>
+    </address>
+    <amount>505030</amount>
+  </appraisal>
+</appraisals>
