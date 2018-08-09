@@ -1,0 +1,10 @@
+apiVersion: "v1"
+kind: "ConfigMap"
+metadata:
+  name: camel-wildfly-appraisal-configmap
+data:
+  datasource.database: example
+  datasource.url: "jdbc:mysql://192.168.99.1:3306/example?autoReconnect=true"
+  application.properties: |-
+    audit.host=camel-wildfly-audit.fuse.svc
+    audit.port=8080

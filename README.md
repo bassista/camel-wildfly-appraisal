@@ -1,1 +1,1 @@
-# camel-swarm-appraisal
+# camel-wildfly-appraisal

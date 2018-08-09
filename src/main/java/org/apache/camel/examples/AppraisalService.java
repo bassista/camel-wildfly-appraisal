@@ -35,6 +35,6 @@ public class AppraisalService {
   @XmlElement(required = true, nillable = false)
   public Double appraise(@WebParam(name = "address")
                          @XmlElement(required = true, nillable = false) String address) {
-    return producer.requestBody("direct:soap_appraise", address, Double.class);
+    return producer.requestBody("direct:appraise", address, Double.class);
   }
 }
